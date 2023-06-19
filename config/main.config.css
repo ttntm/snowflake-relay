@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any custom CSS here */
+
+/* BASE STYLES */
+*:hover,
+*:focus {
+  transition: all .35s ease;
+}
+
+html, body {
+  @apply font-sans;
+}
+
+@layer components {
+  /* component styles */
+}
